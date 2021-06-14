@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./img/NetflixBackgroundImage.jpg);
+  color: #ffffff;
+}
+
+#form-container {
+  max-width: 1240px;
+  margin: 30px auto;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#form-header {
+  text-align: center;
+}
+
+#form-title {
+  font-family: "Bowlby One SC", cursive;
+  letter-spacing: 0.05em;
+  font-size: 3.1rem;
+}
+
+span {
+  color: red;
+}
+
+#description {
+  font-family: "Sorts Mill Goudy", serif;
+  font-size: 1.43rem;
+  margin-bottom: 5px;
+}
+
+#survey-form-container {
+  background: #000000;
+  opacity: 0.8;
+  max-width: 500px;
+  height: 897px;
+  margin: auto;
+  padding: 20px 40px;
+}
+
+#survey-form {
+  max-width: 500px;
+}
+
+label {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  text-align: center;
+  display: inline-block;
+  padding: 4px 0 0 0;
+}
+.box {
+  margin-bottom: 20px;
+}
+
+.box #name,
+#age,
+#mail,
+#dropdown,
+#feedback {
+  width: 100%;
+  padding: 10px 10px;
+  margin-top: 16px;
+}
+
+.box #name:focus,
+#age:focus,
+#mail:focus,
+#dropdown:focus,
+#feedback:focus {
+  background-color: lightblue;
+}
+
+#form-submit {
+  margin: 15px auto;
+  width: 160px;
+}
+
+#form-button {
+  width: 160px;
+  height: 45px;
+  background-color: #ff0000;
+  color: #ffff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 0%;
+}
+
+#form-button:hover {
+  color: red;
+  background-color: #ffff;
+}
